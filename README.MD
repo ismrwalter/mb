@@ -7,12 +7,6 @@
 
 ## 使用
 
-运行下列命令启动 dbus 服务（推荐设置自动启动）
-
-``` shell
-python dbus-service.py
-```
-
 
 克隆本项目到awesomewm配置目录下，修改 awesomewm 配置文件
 
@@ -25,6 +19,15 @@ local widget = lyrics({max_width = 300})
 -- ......
 
 ```
+
+运行下列命令启动 dbus 服务（推荐设置自动启动）
+
+``` shell
+python dbus-service.py
+```
+
+运行 musicbox，应该就可以看到歌词了---
+
 ## 存在的问题
 
 **Q: 不能和musicbox自带的桌面歌词同时使用？**
